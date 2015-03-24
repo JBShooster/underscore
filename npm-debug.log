@@ -1,0 +1,268 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'chai',
+1 verbose cli   'underscore',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json underbar@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'chai@^1.9.2', null ]
+7 verbose cache add name=undefined spec="chai@^1.9.2" args=["chai@^1.9.2",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'chai@^1.9.2',
+8 verbose parsed url   path: 'chai@^1.9.2',
+8 verbose parsed url   href: 'chai@^1.9.2' }
+9 verbose cache add [ 'underscore@^1.8.2', null ]
+10 verbose cache add name=undefined spec="underscore@^1.8.2" args=["underscore@^1.8.2",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'underscore@^1.8.2',
+11 verbose parsed url   path: 'underscore@^1.8.2',
+11 verbose parsed url   href: 'underscore@^1.8.2' }
+12 verbose cache add name="chai" spec="^1.9.2" args=["chai","^1.9.2"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '^1.9.2',
+13 verbose parsed url   path: '^1.9.2',
+13 verbose parsed url   href: '^1.9.2' }
+14 verbose addNamed [ 'chai', '^1.9.2' ]
+15 verbose addNamed [ null, '>=1.9.2-0 <2.0.0-0' ]
+16 verbose cache add name="underscore" spec="^1.8.2" args=["underscore","^1.8.2"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '^1.8.2',
+17 verbose parsed url   path: '^1.8.2',
+17 verbose parsed url   href: '^1.8.2' }
+18 verbose addNamed [ 'underscore', '^1.8.2' ]
+19 verbose addNamed [ null, '>=1.8.2-0 <2.0.0-0' ]
+20 silly lockFile 88c96c93-chai-1-9-2 chai@^1.9.2
+21 verbose lock chai@^1.9.2 /Users/joelshooster/.npm/88c96c93-chai-1-9-2.lock
+22 silly lockFile b9ae4ec4-underscore-1-8-2 underscore@^1.8.2
+23 verbose lock underscore@^1.8.2 /Users/joelshooster/.npm/b9ae4ec4-underscore-1-8-2.lock
+24 silly addNameRange { name: 'chai', range: '>=1.9.2-0 <2.0.0-0', hasData: false }
+25 silly addNameRange { name: 'underscore',
+25 silly addNameRange   range: '>=1.8.2-0 <2.0.0-0',
+25 silly addNameRange   hasData: false }
+26 verbose request where is /chai
+27 verbose request registry https://registry.npmjs.org/
+28 verbose request id 3312c6dc673901bb
+29 verbose url raw /chai
+30 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+31 verbose url resolved https://registry.npmjs.org/chai
+32 verbose request where is https://registry.npmjs.org/chai
+33 info trying registry request attempt 1 at 09:48:25
+34 verbose etag "CLQBEVAL4V0MONELK3F5YJEKZ"
+35 http GET https://registry.npmjs.org/chai
+36 verbose request where is /underscore
+37 verbose request registry https://registry.npmjs.org/
+38 verbose url raw /underscore
+39 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+40 verbose url resolved https://registry.npmjs.org/underscore
+41 verbose request where is https://registry.npmjs.org/underscore
+42 info trying registry request attempt 1 at 09:48:25
+43 verbose etag "7XWFAVIP98M6Z1WWGKZU58013"
+44 http GET https://registry.npmjs.org/underscore
+45 http 200 https://registry.npmjs.org/chai
+46 silly registry.get cb [ 200,
+46 silly registry.get   { date: 'Mon, 23 Mar 2015 16:48:25 GMT',
+46 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     etag: '"EEDUB9GWKKS9YLX5DWGS0UUHP"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     'content-length': '70907',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '16',
+46 silly registry.get     'x-served-by': 'cache-sjc3127-SJC',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '2',
+46 silly registry.get     'x-timer': 'S1427129305.870340,VS0,VE0',
+46 silly registry.get     vary: 'Accept',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly addNameRange number 2 { name: 'chai', range: '>=1.9.2-0 <2.0.0-0', hasData: true }
+48 silly addNameRange versions [ 'chai',
+48 silly addNameRange   [ '0.0.1',
+48 silly addNameRange     '0.0.2',
+48 silly addNameRange     '0.1.0',
+48 silly addNameRange     '0.1.1',
+48 silly addNameRange     '0.1.2',
+48 silly addNameRange     '0.1.3',
+48 silly addNameRange     '0.1.4',
+48 silly addNameRange     '0.1.5',
+48 silly addNameRange     '0.1.6',
+48 silly addNameRange     '0.1.7',
+48 silly addNameRange     '0.2.0',
+48 silly addNameRange     '0.2.1',
+48 silly addNameRange     '0.2.2',
+48 silly addNameRange     '0.2.3',
+48 silly addNameRange     '0.2.4',
+48 silly addNameRange     '0.3.0',
+48 silly addNameRange     '0.3.1',
+48 silly addNameRange     '0.3.2',
+48 silly addNameRange     '0.3.3',
+48 silly addNameRange     '0.3.4',
+48 silly addNameRange     '0.4.0',
+48 silly addNameRange     '0.4.1',
+48 silly addNameRange     '0.4.2',
+48 silly addNameRange     '0.5.0',
+48 silly addNameRange     '0.5.1',
+48 silly addNameRange     '0.5.2',
+48 silly addNameRange     '0.5.3',
+48 silly addNameRange     '1.0.0',
+48 silly addNameRange     '1.0.1',
+48 silly addNameRange     '1.0.2',
+48 silly addNameRange     '1.0.3',
+48 silly addNameRange     '1.0.4',
+48 silly addNameRange     '1.1.0',
+48 silly addNameRange     '1.1.1',
+48 silly addNameRange     '1.2.0',
+48 silly addNameRange     '1.3.0',
+48 silly addNameRange     '1.4.0',
+48 silly addNameRange     '1.4.1',
+48 silly addNameRange     '1.4.2',
+48 silly addNameRange     '1.5.0',
+48 silly addNameRange     '1.6.0',
+48 silly addNameRange     '1.6.1',
+48 silly addNameRange     '1.7.0',
+48 silly addNameRange     '1.7.1',
+48 silly addNameRange     '1.7.2',
+48 silly addNameRange     '1.8.0',
+48 silly addNameRange     '1.8.1',
+48 silly addNameRange     '1.9.0',
+48 silly addNameRange     '1.9.1',
+48 silly addNameRange     '1.9.2',
+48 silly addNameRange     '1.10.0',
+48 silly addNameRange     '2.0.0',
+48 silly addNameRange     '2.1.0',
+48 silly addNameRange     '2.1.1',
+48 silly addNameRange     '2.1.2' ] ]
+49 verbose addNamed [ 'chai', '1.10.0' ]
+50 verbose addNamed [ '1.10.0', '1.10.0' ]
+51 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+52 verbose lock chai@1.10.0 /Users/joelshooster/.npm/6724da50-chai-1-10-0.lock
+53 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+54 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+55 silly lockFile 88c96c93-chai-1-9-2 chai@^1.9.2
+56 silly lockFile 88c96c93-chai-1-9-2 chai@^1.9.2
+57 http 304 https://registry.npmjs.org/underscore
+58 silly registry.get cb [ 304,
+58 silly registry.get   { date: 'Mon, 23 Mar 2015 16:48:25 GMT',
+58 silly registry.get     server: 'Apache',
+58 silly registry.get     via: '1.1 varnish',
+58 silly registry.get     'last-modified': 'Mon, 23 Mar 2015 16:48:25 GMT',
+58 silly registry.get     'cache-control': 'max-age=60',
+58 silly registry.get     etag: '"7XWFAVIP98M6Z1WWGKZU58013"',
+58 silly registry.get     age: '0',
+58 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+58 silly registry.get     'x-cache': 'HIT',
+58 silly registry.get     'x-cache-hits': '1',
+58 silly registry.get     'x-timer': 'S1427129305.872589,VS0,VE86',
+58 silly registry.get     vary: 'Accept',
+58 silly registry.get     'content-length': '0',
+58 silly registry.get     'keep-alive': 'timeout=10, max=50',
+58 silly registry.get     connection: 'Keep-Alive' } ]
+59 verbose etag https://registry.npmjs.org/underscore from cache
+60 silly addNameRange number 2 { name: 'underscore',
+60 silly addNameRange   range: '>=1.8.2-0 <2.0.0-0',
+60 silly addNameRange   hasData: true }
+61 silly addNameRange versions [ 'underscore',
+61 silly addNameRange   [ '1.0.3',
+61 silly addNameRange     '1.0.4',
+61 silly addNameRange     '1.1.0',
+61 silly addNameRange     '1.1.1',
+61 silly addNameRange     '1.1.2',
+61 silly addNameRange     '1.1.3',
+61 silly addNameRange     '1.1.4',
+61 silly addNameRange     '1.1.5',
+61 silly addNameRange     '1.1.6',
+61 silly addNameRange     '1.1.7',
+61 silly addNameRange     '1.2.0',
+61 silly addNameRange     '1.2.1',
+61 silly addNameRange     '1.2.2',
+61 silly addNameRange     '1.2.3',
+61 silly addNameRange     '1.2.4',
+61 silly addNameRange     '1.3.0',
+61 silly addNameRange     '1.3.1',
+61 silly addNameRange     '1.3.2',
+61 silly addNameRange     '1.3.3',
+61 silly addNameRange     '1.4.0',
+61 silly addNameRange     '1.4.1',
+61 silly addNameRange     '1.4.2',
+61 silly addNameRange     '1.4.3',
+61 silly addNameRange     '1.4.4',
+61 silly addNameRange     '1.5.0',
+61 silly addNameRange     '1.5.1',
+61 silly addNameRange     '1.5.2',
+61 silly addNameRange     '1.6.0',
+61 silly addNameRange     '1.7.0',
+61 silly addNameRange     '1.8.0',
+61 silly addNameRange     '1.8.1',
+61 silly addNameRange     '1.8.2' ] ]
+62 verbose addNamed [ 'underscore', '1.8.2' ]
+63 verbose addNamed [ '1.8.2', '1.8.2' ]
+64 silly lockFile 004e52f6-underscore-1-8-2 underscore@1.8.2
+65 verbose lock underscore@1.8.2 /Users/joelshooster/.npm/004e52f6-underscore-1-8-2.lock
+66 silly lockFile 922b9b3e--underscore-underscore-1-8-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+67 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz /Users/joelshooster/.npm/922b9b3e--underscore-underscore-1-8-2-tgz.lock
+68 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz',
+68 verbose addRemoteTarball   '64df2eb590899de950782f3735190ba42ebf311d' ]
+69 info retry fetch attempt 1 at 09:48:25
+70 verbose fetch to= /var/folders/g4/f4wz1qhs5ql885mlx8l40s7w0000gn/T/npm-47868-Ki1grc9i/registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+71 http GET https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+72 http 200 https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+73 silly lockFile 922b9b3e--underscore-underscore-1-8-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+74 silly lockFile 922b9b3e--underscore-underscore-1-8-2-tgz https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+75 silly lockFile 004e52f6-underscore-1-8-2 underscore@1.8.2
+76 silly lockFile 004e52f6-underscore-1-8-2 underscore@1.8.2
+77 silly lockFile b9ae4ec4-underscore-1-8-2 underscore@^1.8.2
+78 silly lockFile b9ae4ec4-underscore-1-8-2 underscore@^1.8.2
+79 error Error: EACCES, mkdir '/Users/joelshooster/.npm/underscore/1.8.2'
+79 error  { [Error: EACCES, mkdir '/Users/joelshooster/.npm/underscore/1.8.2']
+79 error   errno: 3,
+79 error   code: 'EACCES',
+79 error   path: '/Users/joelshooster/.npm/underscore/1.8.2',
+79 error   parent: 'underbar' }
+80 error Please try running this command again as root/Administrator.
+81 error System Darwin 13.4.0
+82 error command "node" "/usr/local/bin/npm" "install" "chai" "underscore" "--save"
+83 error cwd /Users/joelshooster/Documents/GA/Labs/underscore
+84 error node -v v0.10.35
+85 error npm -v 1.4.28
+86 error path /Users/joelshooster/.npm/underscore/1.8.2
+87 error code EACCES
+88 error errno 3
+89 error stack Error: EACCES, mkdir '/Users/joelshooster/.npm/underscore/1.8.2'
+90 verbose exit [ 3, true ]
